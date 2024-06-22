@@ -54,9 +54,9 @@ function Cart() {
       </ul>
 
       <div className="mt-6 space-x-2">
-        <Button to="/order/new" type="primary">
+        {/* <Button to="/order/new" type="primary">
           Order pizzas
-        </Button>
+        </Button> */}
 
         <Button onClick={() => dispatch(clearCart())} type="secondary">
           Clear Cart
