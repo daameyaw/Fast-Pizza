@@ -44,7 +44,7 @@ function Cart() {
   return (
     <div className="px-4 py-3">
       <LinkButton to="/menu"> &larr; Back to menu</LinkButton>
-
+<div>Hello</div>
       <h2 className="mt-7 text-xl font-semibold">Your cart, {username}</h2>
 
       <ul className="divide-y mt-3 divide-stone-400 border-b">
